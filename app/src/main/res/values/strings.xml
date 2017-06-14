@@ -2,4 +2,13 @@
     <string name="app_name">Thakur2017Summer</string>
     <string name="hello">Hello Android Class</string>
     <string name="test">content</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_Demo_fragment">Hello Demo fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blue_fragment">Hello blue fragment</string>
+    <string name="hello_green_fragment">Hello green fragment</string>
+    <string name="hello_red_fragment">Hello red fragment</string>
 </resources>
