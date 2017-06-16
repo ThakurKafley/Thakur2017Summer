@@ -22,7 +22,9 @@
         <activity android:name=".ActivityB" />
         <activity android:name=".ActivityC" />
         <activity android:name=".ActivityD" />
-        <activity android:name=".NotificationActivity"></activity>
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".AdvanceListViewActivity" />
+        <activity android:name=".BaseActivity"></activity>
     </application>
 
 </manifest>

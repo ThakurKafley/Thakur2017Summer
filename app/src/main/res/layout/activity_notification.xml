@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="edu.gsu.httpcs.thakur2017summer.NotificationActivity">
      <Button
          android:id="@+id/activity_notification_small"
@@ -13,18 +14,18 @@
          android:textAllCaps="false"
          android:text="smallNotification"/>
     <Button
-        android:id="@+id/activity_notification_Big"
+        android:id="@+id/activity_notification_big"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="smallNotification"/>
+        android:text="bigNotification"/>
     <Button
-        android:id="@+id/activity_notification_Normal"
+        android:id="@+id/activity_notification_pic"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="smallNotification"/>
+        android:text="picNotification"/>
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
