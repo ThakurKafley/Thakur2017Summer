@@ -16,6 +16,7 @@ import java.util.ArrayList;
 import edu.gsu.httpcs.thakur2017summer.ActivityA;
 import edu.gsu.httpcs.thakur2017summer.AdvanceListViewActivity;
 import edu.gsu.httpcs.thakur2017summer.NotificationActivity;
+import edu.gsu.httpcs.thakur2017summer.PatchActivity;
 import edu.gsu.httpcs.thakur2017summer.R;
 import edu.gsu.httpcs.thakur2017summer.ScaleTypeActivity;
 import edu.gsu.httpcs.thakur2017summer.ViewPagerActivity;
@@ -72,6 +73,11 @@ public class DemoFragment extends Fragment {
                         Intent intent1 = new Intent(getActivity(), ScaleTypeActivity.class);
                         startActivity(intent1);
                         break;
+                    case 2:
+                        Intent intent2 = new Intent(getActivity(), PatchActivity.class);
+                        startActivity(intent2);
+                        break;
+
                     case 3:
                         Intent intent3 = new Intent(getActivity(), NotificationActivity.class);
                         startActivity(intent3);

@@ -61,7 +61,7 @@ public class AdvanceListViewAdapter extends BaseAdapter {
                 (RelativeLayout.LayoutParams.WRAP_CONTENT,RelativeLayout.LayoutParams.MATCH_PARENT);
         if(position%2==0)
         {
-           viewHolder.rl_odd.setVisibility(View.INVISIBLE);
+            viewHolder.rl_odd.setVisibility(View.INVISIBLE);
             viewHolder.rl_even.setVisibility(View.VISIBLE);
             viewHolder.tv.setBackgroundResource(R.drawable.chatto_bg_focused);
             viewHolder.lp.setMargins(0,0,UtilDensity.dip2px(context,60),0);

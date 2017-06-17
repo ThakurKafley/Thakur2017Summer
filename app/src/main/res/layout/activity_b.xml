@@ -1,9 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="edu.gsu.httpcs.thakur2017summer.ActivityB">
+    android:background="@android:color/darker_gray"
+    tools:context="edu.gsu.httpcs.thakur2017summer.ActivityA">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="B"
+        android:textSize="200sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/darker_gray">
+        <Button
+            android:id="@+id/lunch_mode_single_top_a"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:text="A"
+            android:textSize="30sp"/>
+        <Button
+            android:id="@+id/lunch_mode_single_top_b"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"
+            android:text="B"
+            android:textSize="30sp"/>
+        <Button
+            android:id="@+id/lunch_mode_single_top_c"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"
+            android:text="C"
+            android:textSize="30sp"/>
+        <Button
+            android:id="@+id/lunch_mode_single_top_d"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:text="D"
+            android:textSize="30sp"/>
+    </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
